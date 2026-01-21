@@ -6,5 +6,5 @@ const kvArr = [
 const reformatted = kvArr.map(
     ({key, value}) => ({[key]: value})
 );
-
 console.log(reformatted);
+// OUTPUT : [ { '1': 10 }, { '2': 20 } ]

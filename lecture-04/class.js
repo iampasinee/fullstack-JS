@@ -3,11 +3,10 @@ class Song{
         this.title;
         this.author;
     }
-
     play(){
         console.log("Sonf playing!");
     }
 }
-
 const mySong = new Song();
 mySong.play();
+// OUTPUT : Sonf playing!

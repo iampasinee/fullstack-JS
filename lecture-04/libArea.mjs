@@ -8,7 +8,6 @@ function areaCircle(r){
 function areaSqr(w, l){
     return w * l;
 }
-
 export {
     areaCircle, areaSqr, areaTriangle
 };

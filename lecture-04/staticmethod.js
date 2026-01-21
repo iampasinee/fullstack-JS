@@ -6,14 +6,15 @@ class Dog {
     introduce(){
         console.log("This is " + this.name + " !");
     }
-
     // A Static method
     static bark(){
         console.log("Woof!");
     }
 }
-
 const myDog = new Dog("Buster");
 myDog.introduce();
-
 Dog.bark();
+/* OUTPUT : 
+This is Buster !
+Woof!
+ */

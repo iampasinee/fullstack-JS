@@ -17,3 +17,8 @@ const subtract = (a, b) => {
   return result;
 };
 console.log(`The difference of ${a} and ${b} is ${subtract(a, b)}`);
+/*OUTPUT:
+The sum of 5 and 10 is 15
+The sum of 5 and 10 is 15
+The difference of 5 and 10 is -5
+*/

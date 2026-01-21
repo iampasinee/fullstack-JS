@@ -1,4 +1,3 @@
-// desition
 const y_status = 200;
 
 console.log("if else:");
@@ -28,3 +27,13 @@ console.log("");
 console.log("Ternary operator :");
 const message = (y_status === 200) ? "OK!" : "Error!";
 console.log(message);
+/** OUTPUT:
+if else:
+OK
+
+switch case :
+OK
+
+Ternary operator :
+OK!
+ */

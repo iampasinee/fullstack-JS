@@ -5,3 +5,4 @@ function findPerimeter(length, width){
 
 let result = findPerimeter(5, 10);
 console.log(`The perimeter is : ${result}`)
+// OUTPUT : The perimeter is : 30

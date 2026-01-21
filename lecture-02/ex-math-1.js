@@ -11,3 +11,4 @@ function generateTempID() {
 
 const orderID = generateTempID();
 console.log(`ID : ${orderID}`);
+// OUTPUT : ID : XWBH1V

@@ -13,12 +13,7 @@ for (item of values1){
         }
     }
 }
-
-
-
 console.log();
-
-
 items = values1.filter(item =>values2.includes(item) && values3.includes(item));
 console.log(items);
-
+// OUTPUT : Apple

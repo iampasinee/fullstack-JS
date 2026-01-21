@@ -1,5 +1,3 @@
-// censor string
-
 function censorWord(sentence, word){
     const regex = new RegExp(word, 'gi');
     const censorText = sentence.replace(regex, '****');
@@ -11,3 +9,6 @@ const original = "JavaScript is fun, but sometimes javascript can be tricky."
 const cleanPost = censorWord(original, "javascript");
 
 console.log(cleanPost)
+/* OUTPUT : 
+**** is fun, but sometimes **** can be tricky.
+*/

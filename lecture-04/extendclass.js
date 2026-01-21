@@ -4,14 +4,12 @@ class Media {
         this.name = info.name;
     }
 }
-
 class Song extends Media{
     constructor(songData){
         super(songData);
         this.artist = songData.artist;
     }
 }
-
 const mySong = new Song({
     artist: "Queen",
     name: "Bohemian Phapsody",
@@ -20,3 +18,5 @@ const mySong = new Song({
 
 console.log(mySong);
 console.log(mySong.name);
+/*OUTPUT : Song { publishDate: 1975, name: 'Bohemian Phapsody', artist: 'Queen' }
+Bohemian Phapsody */

@@ -1,5 +1,4 @@
 const guests = ['Alice','Bob', 'Charlie', 'David'];
-
 let index = 0;
 while(index < guests.length){
     if (guests[index] == 'Charlie'){
@@ -8,3 +7,4 @@ while(index < guests.length){
     }
     index++;
 }
+// OUTPUT : Found Charlie!

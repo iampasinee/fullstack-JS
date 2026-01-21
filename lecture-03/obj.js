@@ -9,10 +9,8 @@ const book = {
         this.isAvailable = true;
     }
 };
-console.log(book.isAvailable);
-
+console.log(book.isAvailable); // true
 book.checkOut();
-console.log(book.isAvailable);
-
+console.log(book.isAvailable); // false
 book.checkIn();
-console.log(book.isAvailable);
+console.log(book.isAvailable); // true

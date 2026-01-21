@@ -12,3 +12,9 @@ console.log("Final Parts:",finalParts);
 const firstname = finalParts[0];
 
 console.log("Fisrt Name", firstname);
+/* OUTPUT
+Cleane Name: 'Phasinee  Kengklang'
+Name Parts:  [ 'Phasinee', '', 'Kengklang' ]
+Final Parts: [ 'Phasinee', 'Kengklang' ]
+Fisrt Name Phasinee
+*/

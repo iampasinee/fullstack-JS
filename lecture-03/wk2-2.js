@@ -9,3 +9,4 @@ for(let name of message.toLowerCase()){
         console.log(name);
     }
 }
+// OUTPUT : e o u

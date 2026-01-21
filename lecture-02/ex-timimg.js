@@ -7,7 +7,6 @@ function someHeavytask(){
 }
 
 const endTime = Date.now();
-
 const duration = endTime - startTime;
-
 console.log(`function timer: ${duration} milisecon.`)
+// OUTPUT : function timer: 0 milisecon.
